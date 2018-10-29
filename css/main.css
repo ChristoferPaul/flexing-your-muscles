@@ -2,19 +2,20 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  border-top: 3px solid #005e76;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
-  margin: 0
+body {
+  margin: 0;
 }
 
 img {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .footer {
@@ -23,9 +24,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   padding: 1em 0;
-  padding: 1.5rem 0;
-  background-color:#8bc9d9;
-  border-top: 3px solid #005e76;
+  background-color: #8bc9d9;
   color: #005e76;
 }
 
@@ -52,8 +51,9 @@ img {
 .social {
   margin-left: auto;
   padding: 0 1rem;
-  display:flex;
+  display: flex;
 }
+
 .social > li {
   margin: 0 .5em;
   width: 3em;
